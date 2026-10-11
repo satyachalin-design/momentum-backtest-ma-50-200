@@ -69,6 +69,6 @@ Python (pandas, numpy, yfinance, matplotlib), Google Colab.
 - **Cash rémunéré à 0 %** : un taux sans risque réel améliorerait la stratégie, en cash 39 % du temps en moyenne.
 - **Frais de transaction** : testés à 0,1 % par transaction, ils font passer le rendement annuel de 3,76 % à 3,62 %. La stratégie trade trop peu pour qu'ils pèsent.
 - **Paramètres 50/200 non optimisés**, volontairement, pour éviter le sur-ajustement. Un autre réglage, ou un filtre de confirmation du signal, pourrait donner un résultat différent sur cette période.
-
+- **Sharpe calculé avec un taux sans risque nul** : cohérent avec le cash rémunéré à 0 %, mais il surestime légèrement le ratio par rapport à un taux réel.
 ---
-*Projet réalisé dans le cadre d'une recherche de stage/alternance en finance de marché (risk management, front office).*
+*Projet réalisé dans le cadre d'une recherche de stage/alternance en finance de marché (trading, produits dérivés).*
